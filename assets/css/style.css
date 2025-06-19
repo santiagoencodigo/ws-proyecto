@@ -68,3 +68,26 @@ body {
     padding-left:12px;
     padding-right:12px;
 }
+
+#content {
+    margin: 0px auto;
+    overflow: hidden;
+    background: salmon;
+}
+
+#lateral {
+    width: 20%;
+    min-height: 500px;
+    float: left;
+    margin-top:20px;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+
+#lateral .block_aside{
+    display:block;
+    width: 90%;
+    margin: 5px;
+    border: 1px solid blue;
+
+}
